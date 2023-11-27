@@ -24,8 +24,10 @@ for(String str: set){ }
 ```
 
 ## 3. Map
+- 객체 저장 순서 X
 - key, value로 구성된 MapPractice.Entry 객체를 저장하는 구조
 - Entry: MapPractice 인터페이스 내부에 선언된 중첩 인터페이스
+- HashMap, EnumMap
 ```java
  // 선언
  Map<String, Integer> map = new HashMap<>();
@@ -56,3 +58,8 @@ for(String str: set){ }
 ### getOrDefault 사용
 - Map 초기화 없이 사용하고 싶을 때
 - `map.put(key, map.getOrDefault(key, 0) +1 )`
+
+
+
+## sort
+void sort(Comparator c)
