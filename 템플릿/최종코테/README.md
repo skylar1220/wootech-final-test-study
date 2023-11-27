@@ -1,4 +1,4 @@
-# ✏📚전체 모음zip
+# 📚전체 모음zip
 # 1. Enum
 ## enum의 선언 순서 의존 해결!
 ![image](https://github.com/skylar1220/wootech-final-test-study/assets/110809927/ba158d59-0e25-49b1-8abf-5d10a5a66b96)
