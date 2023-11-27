@@ -1,7 +1,11 @@
 ## String.format
 ```java
  String.format("%d :%s개", "1등", 30);
+
+// String.formateed
+"%d는 %s개d입니다.".formatted("1등", 30);
 ```
+
 
 ## 줄바꿈 더하기 System.lineSeparator()
 ```java
