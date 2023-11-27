@@ -1,9 +1,0 @@
-2 StringJoiner
-StringJoiner sj = new StringJoiner(",", "[", "]");
-String[] strArr = {"aaa", "bbb", "ccc"};
-
-for (String s : strArr) {
-    sj.add(s.toUpperCase());
-}
-
-// [AAA, BBB, CCC]
