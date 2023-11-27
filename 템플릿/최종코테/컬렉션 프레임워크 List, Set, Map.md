@@ -55,11 +55,30 @@ for(String str: set){ }
    Integer value = entry.getValue();
  }
 ```
-### getOrDefault 사용
-- Map 초기화 없이 사용하고 싶을 때
+### getOrDefault : 초기화 없이 사용하고 싶을 때
+- Map 초기화 없이 사용하고 싶을 때 (value가 없는 키의 경우 value에 0 넣어줌)
 - `map.put(key, map.getOrDefault(key, 0) +1 )`
+```java
+    private Map<Rank, Integer> countPrizes(WinningCombo winningCombo) {
+        Map<Rank, Integer> prizeSummary = new EnumMap<>(Rank.class);
+        for (Lotto lotto : lottos) {
+            Rank rank = winningCombo.determinePrize(lotto);
+            prizeSummary.put(rank, prizeSummary.getOrDefault(rank, 0) + 1);
+        }
+        return prizeSummary;
+    }
+```
 
+### map 활용 With IntStream
+```java
+    private static Map<Integer, LottoNumber> initializeLottoNumbers() {
+        Map<Integer, LottoNumber> lottoNumbers = new HashMap<>();
 
+        IntStream.rangeClosed(1, 3)
+                .forEach(number -> lottoNumbers.put(number, new LottoNumber(number)));
+        return lottoNumbers;
+    }
+```
 
-## sort
+## 4. sort
 void sort(Comparator c)
