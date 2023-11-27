@@ -1,6 +1,9 @@
 # Enum 클래스 관리
-## Command 관리 (사용자가 입력한 옵션)
+## enum의 선언 순서 의존 해결!
+![image](https://github.com/skylar1220/wootech-final-test-study/assets/110809927/ba158d59-0e25-49b1-8abf-5d10a5a66b96)
 
+## Command 관리 (사용자가 입력한 옵션)
+- from으로 받아서 일치 안하면 오류던지기
 
 ```java
 public enum UserCommand {
