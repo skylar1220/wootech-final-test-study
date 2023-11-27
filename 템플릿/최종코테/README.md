@@ -9,13 +9,13 @@
 # 목차
 
 - [스피드](#스피드)
-- [1. Enum](#1. Enum)
+- [1. Enum](#Enum)
 
 # 스피드
 ## start
 
 
-# 1. Enum
+# Enum
 ## 1. enum의 선언 순서 의존 해결!
 ![image](https://github.com/skylar1220/wootech-final-test-study/assets/110809927/ba158d59-0e25-49b1-8abf-5d10a5a66b96)
 
