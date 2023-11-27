@@ -59,7 +59,9 @@
 <img width="484" alt="image" src="https://github.com/skylar1220/wootech-final-test-study/assets/110809927/1a31b0bc-6b87-4959-81f6-ca67f2702865">
 
 2. 클래스 노트: 객체가 물어본다는 행위를 기반으로 클래스 다이어그램 작성
-![image](https://github.com/skylar1220/wootech-final-test-study/assets/110809927/9012968c-1cf4-443f-a120-3a50bd0fcc4a)
+![image](https://github.com/skylar1220/wootech-final-test-study/assets/110809927/3af9488f-ce76-4501-b4b0-5ab1d4e380f8)
+![image](https://github.com/skylar1220/wootech-final-test-study/assets/110809927/5021e112-caa3-41a1-b39a-c243e270ef72)
+
 
 3. 
  
@@ -70,37 +72,3 @@
 2. 테스트 템플릿도 옮겨오기
 3. validator 패키지 하나 지우기 (에러메시지 고정되어있으면 fix 쓰기)
 
-<br>
-<br>
-<br>
-<br>
-
------
-# Enum
-## 1. enum의 선언 순서 의존 해결!
-![image](https://github.com/skylar1220/wootech-final-test-study/assets/110809927/ba158d59-0e25-49b1-8abf-5d10a5a66b96)
-
-## 2. 사용자가 입력한 옵션 Enum.md
- from으로 받아서 일치 안하면 오류던지기
-## Command 관리 (사용자가 입력한 옵션)
-
-
-```java
-public enum UserCommand {
-    Optioni1("1"),
-    Optioni2("2")
-
-    private final String command;
-
-    UserCommand(String command) {
-        this.command = command;
-    }
-
-    public static UserCommand from(String command) {
-        return Arrays.stream(MainOption.values())
-                .filter(option -> option.command.equals(command))
-                .findAny()
-                .orElseThrow(() -> new IllegalArgumentException("입력은 으로 해야합니다."));
-    }
-}
-```
