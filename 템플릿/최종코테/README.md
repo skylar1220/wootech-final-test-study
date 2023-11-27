@@ -55,8 +55,14 @@
 <br>
 
 ## 4. 구상 (00:30 ~ 01:30)
-> 구상하면서 입, 출력 흐름도 따로 그려보기 (`흐름노트`에)
+1. 흐름노트: 플로우 차트 그리기 -> 컨트롤러와 입, 출력 흐름
+<img width="484" alt="image" src="https://github.com/skylar1220/wootech-final-test-study/assets/110809927/1a31b0bc-6b87-4959-81f6-ca67f2702865">
 
+2. 클래스 노트: 객체가 물어본다는 행위를 기반으로 클래스 다이어그램 작성
+![image](https://github.com/skylar1220/wootech-final-test-study/assets/110809927/9012968c-1cf4-443f-a120-3a50bd0fcc4a)
+
+3. 
+ 
 <br>
 
 ## 5. 구현 (01:30 ~ 4:00)
