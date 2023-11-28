@@ -2,7 +2,8 @@
 - [ ] 클린 코드
 
 ### 공부해볼 내용
-- [ ]  Null 안전성 => Optional 사용법
+- [ ]  Null 안전성 => 코테에서 Optional을 사용하는 것이 안정적일까?
+- [ ]  iterate
 
 ### 참고할 레포
 - 종합: https://github.com/gitchannn/studeeeeeeee
