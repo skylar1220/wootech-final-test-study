@@ -10,3 +10,5 @@ public static TestList from(List<String> list) {
 }
 ```
   
+## Map을 key, value를 쌍로 테스트
+- `containsExactlyAnyOrderEntries`
