@@ -51,7 +51,7 @@
 ## 3. 작성  (00:10 ~ 00.:30)
 1. `기능 구현 목록 - 입력, 출력, 예외처리` 작성
 
-2. 흐름노트: 플로우 차트 그리기 -> `동작 흐름` 작성
+2. 흐름노트: 플로우 차트 그리기 -> `동작 흐름` 작성 or 차트 그대로 넣어도 될듯
 <img width="484" alt="image" src="https://github.com/skylar1220/wootech-final-test-study/assets/110809927/1a31b0bc-6b87-4959-81f6-ca67f2702865">
 
 
@@ -59,7 +59,8 @@
 
 ## 4. 구상 (00:30 ~ 01:30)
 1. 클래스 노트: 객체가 물어본다는 행위를 기반으로 클래스 다이어그램 그리는 구상
-![image](https://github.com/skylar1220/wootech-final-test-study/assets/110809927/5021e112-caa3-41a1-b39a-c243e270ef72)
+- 흐름노트, 리드미 출력예시 띄워놓고
+![IMG_0016](https://github.com/skylar1220/wootech-final-test-study/assets/110809927/7d5836f0-3967-4bdb-bf9f-7e91db09bc42)
 
 
  
