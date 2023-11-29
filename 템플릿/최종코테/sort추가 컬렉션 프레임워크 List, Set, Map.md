@@ -1,5 +1,5 @@
 # 컬렉션 프레임워크
-## 1.  List (ArrayList)
+# 1.  List (ArrayList)
 - 객체 저장 순서 O
 ```java
 // 메서드
@@ -11,7 +11,7 @@ list.remove(1) // 인덱스 1 삭제
 list.remove("현지") // 객체를 직접 지정해서 삭제
 ```
 
-## 2. Set
+# 2. Set
 - 객체 저장 순서 X
 - 중복 허용하지 않음
 - HashSet, LinkedHashSet, TreeSet
@@ -23,11 +23,13 @@ Set<String> set = new HashSet<>();
 for(String str: set){ }
 ```
 
-## 3. Map
-- 객체 저장 순서 X
+# 3. Map
 - key, value로 구성된 MapPractice.Entry 객체를 저장하는 구조
 - Entry: MapPractice 인터페이스 내부에 선언된 중첩 인터페이스
-- HashMap, EnumMap
+### 1) 순서보장 x: HashMap
+### 2) 순서 보장 o : linkedHashMap
+### 3) enum 전용, enum 선언 순서대로 : enumMap
+
 ```java
  // 선언
  Map<String, Integer> map = new HashMap<>();
@@ -80,5 +82,32 @@ for(String str: set){ }
     }
 ```
 
-## 4. sort
-void sort(Comparator c)
+# 4. sort
+
+## 1) List
+```java
+Collections.sort(List<T> list):
+```
+- 이 메서드는 Collections 유틸리티 클래스에 있는 정적 메서드로서, List 안의 요소들을 기본적으로 오름차순으로 정렬합니다.
+- Comparable 인터페이스를 구현한 객체에 대해서만 작동합니다.
+
+```java
+Collections.sort(List<T> list, Comparator<? super T> comparator):
+```
+- Comparable 인터페이스를 구현하지 않은 객체에 대해서도 정렬을 수행할 수 있도록 Comparator를 지정할 수 있는 메서드입니다.
+- 사용자가 정의한 기준에 따라 정렬하고자 할 때 유용합니다.
+
+## 2) Arrays
+```java
+Arrays.sort(T[] arr):
+```
+- 배열을 오름차순으로 정렬합니다.
+- Comparable 인터페이스를 구현한 객체에 대해서만 작동합니다.
+
+```java
+Arrays.sort(T[] arr, Comparator<? super T> comparator):
+```
+- Comparator를 사용하여 배열을 정렬합니다.
+- Comparable 인터페이스를 구현하지 않은 객체에 대해서도 정렬을 수행할 수 있습니다.
+
+## 3) Map은 sort 불가
