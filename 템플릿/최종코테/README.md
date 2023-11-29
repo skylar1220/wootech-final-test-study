@@ -1,7 +1,8 @@
-# 📚전체 모음zip
+
 # 들어가기전 체크할 것
 - [ ] 노트북, 패드 화면 자동 꺼짐 해제
 - [ ] java 버전 17 확인
+- [ ] key 단축어 꺼놓기
 
 <br>
 
@@ -26,11 +27,14 @@
 
 -----
 # 1. start (~00:05)
-1. 깃허브: Fork하기 → Clone하기 → skylar 브랜치 만들기 → initial commit 하고 확인 꼭!!! (Pull Request 보내지는지도!!)
+1. 깃허브: Fork하기 → Clone하기 → skylar 브랜치 -b 만들기 → 인텔리제이 폴더 open - initial commit 하고 확인 꼭!!! `git push origin skylar1220` -Pull Request 보내지는지도!!
 2. 꼭!!!!! Application, ApplicationTest 둘 다 돌아가는지 부터 확인!!!
 3. setting, project structure java17 설정
 4. setting - editor - general - fly import
 
+<br>
+<br>
+<br>
 <br>
 
 # 2. 요구사항 읽기 (00:05 ~ 00:10)
@@ -41,7 +45,12 @@
 4. 제공+제한한 클래스는 `참고노트`에 캡쳐해놓기
 5. ApplicationTest 코드 정독
 
+
 <br>
+<br>
+<br>
+<br>
+
 
 # 3. 작성  (00:10 ~ 00.:30)
 1. `기능 구현 목록 - 입력, 출력, 예외처리` 작성
@@ -52,14 +61,23 @@
 
 3. 게임 진행 기능에 대해 글로 적어보고 -> `기능 구현 목록 - 게임 진행` 작성
 
+<br>
+<br>
+<br>
+<br>
+
 # 4. 구상 (00:30 ~ 01:30)
 1. 클래스 노트: 객체가 물어본다는 행위를 기반으로 클래스 다이어그램 그리는 구상
 - 흐름노트, 리드미 출력예시 띄워놓고
 ![IMG_0016](https://github.com/skylar1220/wootech-final-test-study/assets/110809927/7d5836f0-3967-4bdb-bf9f-7e91db09bc42)
 
 
- 
+
 <br>
+<br>
+<br>
+<br>
+
 
 # 5. 구현 (01:30 ~ 4:00)
 1. 템플릿 옮겨와서 다 import 하기: 기존 Reader import 조심, 하나하나 보면서 import
