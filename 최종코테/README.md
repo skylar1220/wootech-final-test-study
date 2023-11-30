@@ -28,7 +28,7 @@
 
 -----
 # 1. start (~00:05)
-1. 깃허브: Fork하기 → Clone하기 → skylar 브랜치 -b 만들기 → 인텔리제이 폴더 open - initial commit 하고 확인 꼭!!! `git push origin skylar1220` -Pull Request 보내지는지도!!
+1. 깃허브: Fork하기 → Clone하기 → skylar 브랜치 -b 만들기 → 인텔리제이 폴더 open
 2. 꼭!!!!! Application, ApplicationTest 둘 다 돌아가는지 부터 확인!!!
 3. setting, project structure java17 설정
 4. setting - editor - general - fly import
@@ -59,7 +59,7 @@
 2. 흐름노트: 플로우 차트 그리기(재입력이 복잡하면 꼼꼼히) -> `동작 흐름`에 그대로 넣기
 
 3. 출력 예시+흐름노트 보면서: `기능 구현 목록 - 게임 진행` 작성
-
+ - initial commit 하고 확인 꼭!!! `git push origin skylar1220` -Pull Request 보내지는지도!!
 <br>
 <br>
 <br>
