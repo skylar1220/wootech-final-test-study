@@ -29,9 +29,10 @@
 -----
 # 1. start (~00:05)
 1. 깃허브: Fork하기 → Clone하기 → skylar 브랜치 -b 만들기 → 인텔리제이 폴더 open
-2. 꼭!!!!! Application, ApplicationTest 둘 다 돌아가는지 부터 확인!!!
-3. setting, project structure java17 설정
-4. setting - editor - general - fly import
+2. setting, project structure java17 설정
+3. setting - editor - general - fly import
+4. 2. 꼭!!!!! Application, ApplicationTest 둘 다 돌아가는지 부터 확인!!!
+
 
 <br>
 <br>
