@@ -6,7 +6,7 @@
 "%d는 %s개d입니다.".formatted("1등", 30);
 ```
 
-## 
+## Collectors.joining
 ```java
 Stream <String> wordsStream = Stream.of("1", "2", "3");
 String result_delemiter             // 1-2-3
