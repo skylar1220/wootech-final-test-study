@@ -134,3 +134,7 @@ Arrays.sort(T[] arr, Comparator<? super T> comparator):
 
 # 불변 리스트 변경 여부
 https://alkhwa-113.tistory.com/entry/Listof-vs-ArraysasList-vs-CollectionsunmodifiableList
+
+# Collections.frequency(list, 요소): 들어간 갯수 확인 가능!
+<img width="677" alt="image" src="https://github.com/skylar1220/wootech-final-test-study/assets/110809927/1e9dd1f5-6c56-40c1-ae6d-527705ae8e6d">
+
