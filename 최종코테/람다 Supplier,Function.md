@@ -1,13 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
-
-public class Lambda {
-
-    public static void main(String[] args) {
+````java
         // 종류
         Supplier<Integer> supplier = () -> (int) (Math.random() * 100) + 1;
         
@@ -36,6 +27,6 @@ public class Lambda {
         for (int i : list) {
             list.add(function.apply(i));
         }
-    }
+```
 
-}
+<img width="601" alt="image" src="https://github.com/skylar1220/wootech-final-test-study/assets/110809927/d059cc43-09fe-4728-9d1d-c0a618782010">
