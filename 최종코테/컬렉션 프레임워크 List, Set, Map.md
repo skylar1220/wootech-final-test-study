@@ -88,6 +88,19 @@ for(String str: set){ }
         return prizeSummary;
     }
 ```
+### get : 빈자리에 0 안넣고 그냥 있는 것만 value 추가하는 버전
+- Map 초기화 없이 사용하고 싶을 때 (value가 없는 키의 경우 value에 0 넣어줌)
+- `map.put(key, map.get(key) +1 )`
+```java
+    private Map<Rank, Integer> countPrizes(WinningCombo winningCombo) {
+        Map<Rank, Integer> prizeSummary = new EnumMap<>(Rank.class);
+        for (Lotto lotto : lottos) {
+            Rank rank = winningCombo.determinePrize(lotto);
+            prizeSummary.put(rank, prizeSummary.get(rank) + 1);
+        }
+        return prizeSummary;
+    }
+```
 
 ### map 활용 With IntStream
 ```java
