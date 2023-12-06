@@ -23,4 +23,14 @@ public enum UserCommand {
                 .orElseThrow(() -> new IllegalArgumentException("입력은 으로 해야합니다."));
     }
 }
+
+
+---
+    public static RetryCommand from(String retryCommand) {
+        return Arrays.stream(values())
+                .filter(option -> option.userInput.equals(retryCommand))
+                .findAny()
+                .orElseThrow(() -> new IllegalArgumentException(
+                        String.format("입력은 %s, %s로 해야합니다.", RETRY.userInput, QUIT.userInput)));
+    }
 ```
