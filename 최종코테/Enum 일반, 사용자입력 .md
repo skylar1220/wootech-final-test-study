@@ -28,9 +28,9 @@ public enum UserCommand {
 ---
     public static RetryCommand from(String retryCommand) {
         return Arrays.stream(values())
-                .filter(option -> option.userInput.equals(retryCommand))
+                .filter(option -> option.userCommand.equals(retryCommand))
                 .findAny()
                 .orElseThrow(() -> new IllegalArgumentException(
-                        String.format("입력은 %s, %s로 해야합니다.", RETRY.userInput, QUIT.userInput)));
+                        String.format("입력은 %s, %s로 해야합니다.", RETRY.userCommand, QUIT.userCommand)));
     }
 ```
