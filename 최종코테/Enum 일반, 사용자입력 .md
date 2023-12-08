@@ -16,9 +16,9 @@ public enum UserCommand {
         this.command = command;
     }
 
-    public static UserCommand from(String command) {
+    public static UserCommand from(String input) {
         return Arrays.stream(values())
-                .filter(option -> option.command.equals(command))
+                .filter(option -> option.command.equals(input))
                 .findAny()
                 .orElseThrow(() -> new IllegalArgumentException("입력은 으로 해야합니다."));
     }
