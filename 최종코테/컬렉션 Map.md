@@ -33,9 +33,18 @@
    Integer value = entry.getValue();
  }
 ```
-### getOrDefault : 초기화 없이 사용하고 싶을 때
-- Map 초기화 없이 사용하고 싶을 때 (value가 없는 키의 경우 value에 0 넣어줌)
-- `map.put(key, map.getOrDefault(key, 0) +1 )`
+### getOrDefault : 초기화 하고 싶을 때
+- Map 초기화하고 싶을 때 (value가 없는 키의 경우 value에 0 넣어줌)
+```java
+    private Map<Rank, Integer> initializePrizeSummary() {
+        Map<Rank, Integer> prizeSummary = new EnumMap<>(Rank.class);
+        for (Rank rank : Rank.values()) {
+            prizeSummary.put(rank, 0);
+        }
+        return prizeSummary;
+    }
+```
+- (?) : `map.put(key, map.getOrDefault(key, 0) +1 )`
 ```java
     private Map<Rank, Integer> countPrizes(WinningCombo winningCombo) {
         Map<Rank, Integer> prizeSummary = new EnumMap<>(Rank.class);
