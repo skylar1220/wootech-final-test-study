@@ -33,7 +33,7 @@
    Integer value = entry.getValue();
  }
 ```
-### getOrDefault : 초기화 하고 싶을 때
+### 빈자리 0으로 초기화 하고 싶을 때
 - Map 초기화하고 싶을 때 (value가 없는 키의 경우 value에 0 넣어줌)
 ```java
     private Map<Rank, Integer> initializePrizeSummary() {
