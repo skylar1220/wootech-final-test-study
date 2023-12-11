@@ -1,3 +1,16 @@
+## List['1,2', '3,4] 랑 다른 List['5,6',1,2']에 중복있는지 확인할 때
+```java
+public boolean containsSamePair(Pairs inputPairs) {
+    return pairs.stream()
+            .anyMatch(inputPairs::contains);
+}
+
+private boolean contains(Pair inputPair) {
+    return pairs.stream()
+            .anyMatch(pair -> pair.isSamePair(inputPair));
+}
+```
+
 ## filter
 ```java
 private static Position fromNumber(int generatedNumber) {
