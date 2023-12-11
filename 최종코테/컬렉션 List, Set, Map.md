@@ -19,6 +19,14 @@ list.add(1, 2);  // 1, '2', 3
 List<Integer> newList = new ArrayList<>(Arrays.asList(20, 21));
 list.addAll(1, newList);  // 1, '20', '21', 2, 3
 ```
+
+### containAll : 순서 상관없이 포함 확인
+```java
+public boolean isSamePair(Pair inputPair) {
+  return crews.containsAll(inputPair.crews);
+}
+```
+
 ## List.of, Arrays.asList -> 수정 불가!
 - `List.of`
    - 완전한 불변 리스트: add, set, remove 에 대해서 모두 UnsupportedOerationException을 발생 
